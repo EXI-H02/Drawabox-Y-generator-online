@@ -23,8 +23,8 @@ const generateButton = document.getElementById('generateButton');
 // --- Helper Functions ---
 
 function randLen() {
-    // Generates a random integer length between 10 and 200
-    return Math.floor(Math.random() * 191) + 10;
+    // Generates a random integer length between 100 and 400
+    return Math.floor(Math.random() * 191) + 100;
 }
 
 function angularDistance(angle1, angle2) {
