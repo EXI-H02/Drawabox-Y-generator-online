@@ -24,7 +24,7 @@ const generateButton = document.getElementById('generateButton');
 
 function randLen() {
     // Generates a random integer length between 100 and 400
-    return Math.floor(Math.random() * 191) + 100;
+    return Math.floor(Math.random() * 300) + 100;
 }
 
 function angularDistance(angle1, angle2) {
@@ -160,4 +160,5 @@ generateButton.addEventListener('click', generateVectors);
 
 // --- Initial Run ---
 // Start the application by generating the first set of vectors
+
 generateVectors();
